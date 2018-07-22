@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.MarketIDs {
+  grid-column-start: 0;
+  grid-column-end: 2;
+}
+
+.MarketReponses {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.MarketTable {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
